@@ -1,13 +1,33 @@
 @import "~normalize.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 @import "_variables";
 @import "modules/hello.scss";
+@import "modules/header.scss";
+@import "modules/sections.scss";
+
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*:before,
+*:after {
+  box-sizing:inherit;
+}
 
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-family: Rubik;
   min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-weight: inherit;
+}
+
+.container {
+  max-width: 1176px; 
+  margin: auto;
 }
