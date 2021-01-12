@@ -1,6 +1,6 @@
 @import "~normalize.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 
 @import "_variables";
 @import "modules/hello.scss";
@@ -9,25 +9,29 @@
 
 html {
   box-sizing: border-box;
-
 }
 
 *,
 *:before,
 *:after {
-  box-sizing:inherit;
+  box-sizing: inherit;
 }
 
 body {
   font-family: Rubik;
   min-height: 100vh;
+  background: $lightgray;
+  color: $black;
+  padding-bottom: 72px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: inherit;
 }
 
 .container {
-  max-width: 1176px; 
+  max-width: 1176px;
   margin: auto;
 }
