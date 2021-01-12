@@ -14,6 +14,7 @@
   <meta property="og:url" content="https://github.com/anastazjasta/gogomedia-test" />
   <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
   <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+  <link rel="stylesheet" type="text/css" href="../../node_modules/glider-js/glider.css">
 </head>
 
 <body>
@@ -30,9 +31,9 @@
           elit.</p>
 
         <div class="slider">
-          <button class="slider__button slider__button--prev"></button>
+          <button class="slider__button slider__button--prev glider-prev"></button>
 
-          <div class="wrapper">
+          <div class="wrapper glider">
             <div class="box" id="darkbox1">
               <div class="box__content">
                 <h3 class="box__heading">Heading</h3>
@@ -53,9 +54,21 @@
                 <p class="box__description">Lorem ipsum dolor sit amet.</p>
               </div>
             </div>
+            <div class="box" id="darkbox4">
+              <div class="box__content">
+                <h3 class="box__heading">Long Heading</h3>
+                <p class="box__description">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="box" id="darkbox5">
+              <div class="box__content">
+                <h3 class="box__heading">Super Long Heading</h3>
+                <p class="box__description">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
           </div>
 
-          <button class="slider__button slider__button--next"></button>
+          <button class="slider__button slider__button--next glider-next"></button>
         </div>
       </div>
     </section>
@@ -94,9 +107,7 @@
     </section>
 
   </main>
-  <footer>
 
-  </footer>
 </body>
-
+<script src="../../node_modules/glider-js/glider.js"></script>
 </html>
