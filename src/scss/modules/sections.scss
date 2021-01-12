@@ -1,31 +1,31 @@
 .box {
   background: $white;
-  margin: 0 10px;
+  margin: 0 0.625rem;
   color: $black;
 
   align-self: stretch;
   flex-basis: 100%;
   &__content {
-    padding: 36px 28px;
+    padding: 2.25rem 1.75rem;
   }
   &__description {
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 0.9375rem;
+    line-height: 1.5rem;
     text-align: center;
     color: $gray;
-    padding-top: 12px;
+    padding-top: 0.75rem;
     margin: 0;
   }
   &__heading {
     padding: 0;
     margin: 0;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     text-align: center;
   }
 
   &__wplogo {
-    padding-top: 12px;
+    padding-top: 0.75rem;
     display: block;
     margin: auto;
   }
@@ -39,50 +39,50 @@
       content: "";
       display: block;
       position: relative;
-      top: 16px;
-      width: 32px;
-      height: 32px;
+      top: 1rem;
+      width: 2rem;
+      height: 2rem;
       border-radius: 50%;
       background: #ff3859;
-      margin: 10px auto 0;
-      box-shadow: 0px 4px 4px rgba(255, 56, 89, 0.2);
+      margin: 0.625rem auto 0;
+      box-shadow: 0rem 0.25rem 0.25rem rgba(255, 56, 89, 0.2);
     }
   }
   &__description {
     margin: 0;
-    padding: 5px 0 0 0;
-    font-size: 20px;
-    line-height: 32px;
+    padding: 0.3125rem 0 0 0;
+    font-size: 1.25rem;
+    line-height: 2rem;
     text-align: center;
   }
   &__heading {
     margin: 0;
-    padding: 49px 0 0 0;
-    font-size: 40px;
-    line-height: 52px;
+    padding: 3.0625rem 0 0 0;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
     text-align: center;
   }
   &__subheading {
     margin: 0;
-    padding: 36px 0 24px;
-    font-size: 30px;
-    line-height: 30px;
+    padding: 2.25rem 0 1.5rem;
+    font-size: 1.875rem;
+    line-height: 1.875rem;
     text-align: center;
   }
 }
 
 .slider {
-  padding: 40px 0 60px 0;
+  padding: 2.5rem 0 3.75rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   &__button {
-    height: 48px;
-    width: 48px;
+    height: 3rem;
+    width: 3rem;
     padding: 0;
     border: 0;
     &--next {
-      padding-left: 12px;
+      padding-left: 0.75rem;
       background: url("../assets/img/next.svg") center center no-repeat;
       &:hover {
         background: url("../assets/img/next_hover.svg") center center no-repeat;
@@ -96,7 +96,7 @@
       }
     }
     &--prev {
-      padding-right: 12px;
+      padding-right: 0.75rem;
       background: url("../assets/img/prev.svg") center center no-repeat;
       &:hover {
         background: url("../assets/img/prev_hover.svg") center center no-repeat;
@@ -112,7 +112,7 @@
   }
 }
 .wrapper {
-  max-width: 1056px;
+  max-width: 66rem;
   margin: auto;
   display: flex;
   align-self: stretch;
