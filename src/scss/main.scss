@@ -22,7 +22,7 @@ body {
   min-height: 100vh;
   background: $lightgray;
   color: $black;
-  padding-bottom: 4.5rem;
+  padding-bottom: 72px;
 }
 
 h1,
@@ -32,8 +32,9 @@ h3 {
 }
 
 .container {
-  max-width: 73.5rem;
+  max-width: 1176px;
   margin: auto;
+  padding: 0 16px;
 }
 
 // glide.js override 
