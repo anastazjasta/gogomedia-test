@@ -1,8 +1,7 @@
 .box {
   background: $white;
-  margin: 0 0.625rem;
+  margin: 0.625rem;
   color: $black;
-
   align-self: stretch;
   flex-basis: 100%;
   &__content {
@@ -32,9 +31,12 @@
 }
 
 .section {
+
+    padding: 0 1.75rem;
   &--dark {
     background: $blue;
     color: $white;
+    padding: 0 1rem;
     &::after {
       content: "";
       display: block;
@@ -64,7 +66,7 @@
   }
   &__subheading {
     margin: 0;
-    padding: 2.25rem 0 1.5rem;
+    padding: 2.25rem 0 0.875rem;
     font-size: 1.875rem;
     line-height: 1.875rem;
     text-align: center;
@@ -72,15 +74,17 @@
 }
 
 .slider {
-  padding: 2.5rem 0 3.75rem 0;
+    margin: 0 auto;
+  padding: 1.875rem 0 3.125rem 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   &__button {
     height: 3rem;
     width: 3rem;
     padding: 0;
     border: 0;
+    min-width: 3rem;
     &--next {
       padding-left: 0.75rem;
       background: url("../assets/img/next.svg") center center no-repeat;
@@ -117,4 +121,21 @@
   display: flex;
   align-self: stretch;
   justify-content: space-between;
+}
+
+
+@media (max-width: 1200px) {
+    .box--light {
+        margin-bottom: 0.625rem;
+    }
+    .slider {
+        max-width: 51.5rem;
+    }
+    .wrapper {
+        max-width: 44rem;
+        &--light {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
 }
