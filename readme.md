@@ -1,12 +1,10 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://github.com/anastazjasta/gogomedia-test/assets/img/fb.png)
 
-# WTF Webpack Starter Kit 
+# GOGOmedia - test
 
-Simple toolkit for your static websites development.
+Aneta Dakalo junior frontend developer test task
 
-## How to use it?
-
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+[link](https://anastazjasta.github.io/gogomedia-test/)
 
 ## Available scripts
 
