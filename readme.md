@@ -1,4 +1,5 @@
-![cover](https://github.com/anastazjasta/gogomedia-test/assets/img/fb.png)
+![cover](src/assets/img/fb.png)
+
 
 # GOGOmedia - test
 
