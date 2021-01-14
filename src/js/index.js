@@ -1,4 +1,5 @@
 import '../scss/main.scss';
+import 'glider-js';
 
 window.addEventListener('load', function(){
     new Glider(document.querySelector('.glider'), {
