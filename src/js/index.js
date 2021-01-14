@@ -13,13 +13,13 @@ window.addEventListener('load', function(){
         
         responsive: [
             {
-                breakpoint: 800,
+                breakpoint: 801,
                 settings: {
                   slidesToShow: 2
               }
           },
             {
-              breakpoint: 1200,
+              breakpoint: 1201,
               settings: {
                 slidesToShow: 3
             }
